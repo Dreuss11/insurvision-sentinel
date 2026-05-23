@@ -1,0 +1,26 @@
+# Virtual Environment
+backend/.venv/
+.venv/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# AI Models (Do not push heavy weights to git)
+backend/*.pt
+*.pt
+huggingface/
+.cache/
+
+# IDEs & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
